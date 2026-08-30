@@ -1,0 +1,11 @@
+# Données commerciales locales
+data/
+*.xlsx
+
+# Environnements et secrets locaux
+.venv/
+venv/
+.env
+
+# Fichiers Jupyter temporaires
+.ipynb_checkpoints/
