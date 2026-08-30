@@ -2,12 +2,16 @@
 
 Ce dépôt présente une segmentation descriptive d’un catalogue de caviste. Elle aide à prioriser une revue humaine du catalogue ; elle ne produit ni prévision de ventes ni décision automatique.
 
-## Contenu
+## 1. Mission
 
-- `P13_documentation_demarche_mission_1.md` : démarche, résultats, limites et pilotage ;
-- `notebook/P13_P6_segmentation_kmeans.ipynb` : préparation, essais et segmentation K-means ;
-- `assets/` : visuels utilisés par la documentation ;
-- `formation/presentation_prise_en_main_metier.pptx` : support de prise en main métier.
+- [Consulter les documents de la mission P13](missions/README.md)
+
+## 2. Livrables
+
+- [Documentation de la démarche](livrables/P13_documentation.md)
+- [Notebook de segmentation K-means](notebook/P13_P6_segmentation_kmeans.ipynb)
+- [Support de prise en main métier](formation/presentation_prise_en_main_metier.pptx)
+- [Portfolio Data & Intelligence Artificielle](https://github.com/Fighter777/Portfolio-data-ia)
 
 ## Confidentialité
 
