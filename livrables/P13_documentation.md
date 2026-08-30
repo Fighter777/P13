@@ -200,7 +200,7 @@ Principe de traçabilité — L’IA a été utilisée comme agent d’assistanc
 | Prévision des ventes           | **Analyste** : idée initiale d’ajouter un modèle prédictif.                                          | A challengé la faisabilité en examinant la nature de `post_date_gmt` et des ventes cumulées. | Pas de transactions datées exploitables ; `post_date_gmt` correspond à la publication de la fiche produit.  | Prévision et saisonnalité écartées.                       |
 | Choix de K-means               | **Analyste** : choix explicite de partir sur K-means.                                                | A aidé à cadrer et implémenter la segmentation.                                              | Résultats calculés dans le notebook.                                                                        | K-means retenu comme méthode principale.                  |
 | Reprise de la méthodologie P11 | **Analyste** : demande explicite de reprendre la méthode déjà utilisée au P11.                       | A adapté cette démarche aux données du P6 et aidé à l’implémentation.                        | Standardisation, CAH/Ward, ACP de contrôle et profilage exécutés dans le notebook.                          | Méthode P11 adaptée au P6.                                |
-| Comparaison avec / sans ACP    | **Discussion analyste–IA, essai décidé par l’analyste** après constat du faible nombre de variables. | A proposé/implémenté la comparaison entre axes ACP et variables standardisées.               | Résultats très proches ; l’ACP n’apporte pas assez pour justifier son utilisation dans le pipeline final.   | ACP conservée comme contrôle et visualisation uniquement. |
+| Comparaison avec / sans ACP    | **Discussion analyste–IA, essai décidé par l’analyste** après constat du faible nombre de variables. | A aidé à implémenter la comparaison entre axes ACP et variables standardisées.               | Résultats très proches ; l’ACP n’apporte pas assez pour justifier son utilisation dans le pipeline final.   | ACP conservée comme contrôle et visualisation uniquement. |
 | ACM / FAMD / DBSCAN            | **Mentor** : méthodes évoquées lors de l’accompagnement.                                             | A expliqué leur adéquation théorique avec les types de variables.                            | L’analyste a explicitement demandé de ne pas les intégrer au pipeline.                                      | DBSCAN cité en veille seulement ; ACM/FAMD non utilisées. |
 | Arbitrage K=3 / K=4            | **Résultats du notebook + besoin métier**, pas une idée attribuée à l’IA.                            | A aidé à mettre les partitions côte à côte et à produire les contrôles/visualisations.       | K=3 meilleur statistiquement ; K=4 permet une lecture métier supplémentaire.                                | **K=4 retenu par l’analyste** pour la restitution métier. |
 
@@ -269,8 +269,8 @@ Charges indicatives issues du backlog existant ; elles ne sont pas un temps rée
 | P13-06 | Profiler et retenir la solution. | L5 | 0,5 j | P13-05 | K=4 justifié comme arbitrage métier ; actions et limites rédigées. | ✅Terminé |
 | P13-07 | Tracer l’usage de l’IA. | L5 | 0,5 j | P13-02, P13-06 | Usages, vérifications et décisions documentés. | ✅Terminé |
 | P13-08 | Préparer la mini-formation. | L6 | 0,5 j | P13-06 | Support de 20 min compréhensible par le métier. | ✅Terminé |
-| P13-09 | Finaliser documentation et reproductibilité. | L6 | 0,5 j | P13-02, P13-07, P13-08 | Document unique cohérent et relu. | 🕒En cours |
-| P13-10 | Préparer la restitution. | L6 | 0,5 j | P13-09 | Notebook relancé et démonstration prête. | À faire |
+| P13-09 | Finaliser documentation et reproductibilité. | L6 | 0,5 j | P13-02, P13-07, P13-08 | Document unique cohérent et relu. | ✅Terminé |
+| P13-10 | Préparer la restitution. | L6 | 0,5 j | P13-09 | Notebook relancé et démonstration prête. | 🕒En cours |
 
 Charge indicative totale : **5 jours**.
 
@@ -328,8 +328,8 @@ Les dates de début/fin de chaque lot ne sont pas traçables de manière fiable.
 | J2 — Veille | Méthodes comparées selon des critères explicites. | ✅Validé |
 | J3 — POC | Notebook exécuté et résultats lisibles. | ✅Validé |
 | J4 — Validation | K=3/K=4 comparés ; K=4 justifié pour l’usage métier. | ✅Validé |
-| J5 — Livraison | Document, formation, registre IA et notebook cohérents. | 🕒En cours |
-| J6 — Restitution | Démonstration préparée. | À faire |
+| J5 — Livraison | Document, formation, traçabilité IA et notebook cohérents. | ✅Validé |
+| J6 — Restitution | Démonstration préparée. | 🕒En cours |
 
 ## 5.6 Gantt relatif de la Mission 1
 
