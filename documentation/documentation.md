@@ -338,6 +338,18 @@ Les dates de début/fin de chaque lot ne sont pas traçables de manière fiable.
 Les dates ci-dessous sont artificielles et servent uniquement au rendu Mermaid ; elles ne représentent pas les dates réelles du projet.
 
 ~~~mermaid
+
+%%{init: {
+  "gantt": {
+    "barHeight": 30,
+    "barGap": 8,
+    "leftPadding": 180,
+    "fontSize": 16,
+    "sectionFontSize": 16,
+    "topPadding": 55
+  }
+}}%%
+
 gantt
     title Séquencement relatif des lots de la Mission 1
     dateFormat  YYYY-MM-DD
