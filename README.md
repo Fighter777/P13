@@ -9,7 +9,7 @@ Ce dépôt présente une segmentation descriptive d’un catalogue de caviste. E
 ## 2. Livrables
 
 - [Notebook de segmentation K-means](notebook/P13_P6_segmentation_kmeans.ipynb)
-- [Documentation](livrables/P13_documentation.md)
+- [Documentation](documentation/documentation.md)
 - [Portfolio Data & Intelligence Artificielle](https://github.com/Fighter777/Portfolio-data-ia)
 
 ## Confidentialité
