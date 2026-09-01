@@ -223,6 +223,8 @@ Une prévision de demande ne deviendrait crédible qu’après obtention de tran
 
 L’objectif est d’utiliser les segments comme une liste de contrôle, sans les confondre avec une décision automatisée.
 
+Le [support de prise en main métier](https://github.com/Fighter777/P13/blob/main/formation/presentation_prise_en_main_metier.pptx) accompagne cette formation.
+
 | Séquence | Durée | Contenu | Résultat attendu |
 | --- | ---: | --- | --- |
 | Limites des données | 5 min | Ventes cumulées et absence de date d’achat exploitable. | Les utilisateurs savent ce que le livrable ne permet pas. |

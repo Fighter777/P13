@@ -1,6 +1,7 @@
 # Données commerciales locales
 data/
 *.xlsx
+livrables/
 
 # Environnements et secrets locaux
 .venv/
